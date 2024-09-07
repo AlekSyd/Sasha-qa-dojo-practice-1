@@ -39,13 +39,15 @@ export default defineConfig({
     },
 
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: 'first_practices',
+      use: { ...devices['Desktop Desktop Chrome'] },
+      testDir: "first-playwright-practices1-6",
     },
 
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: 'sasha-github-lection7',
+      use: { ...devices['Desktop Chrome'] },
+      testDir: "sasha-github-lection7"
     },
 
     /* Test against mobile viewports. */
