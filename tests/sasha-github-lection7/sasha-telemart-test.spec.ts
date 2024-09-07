@@ -20,5 +20,11 @@ test('Sasha001 - merry-go-round test', async ({ page }) => {
     await swiperSlideActive.click();
     await expect(page.url()).toEqual(activeSlideUrl);
 
-})
+//todo:
+//todo:
+
+});
+
+
+
 
