@@ -50,6 +50,12 @@ export default defineConfig({
       testDir: "sasha-github-lection7"
     },
 
+    {
+      name: 'if-else',
+      use: { ...devices['Desktop Chrome'] },
+      testDir: "lection-8-if-else"
+    },
+
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
