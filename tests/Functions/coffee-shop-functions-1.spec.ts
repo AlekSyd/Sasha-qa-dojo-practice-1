@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
 
 test('OLSY-001 - promotional message', async ({ page }) => {
 
-  async function chooseCupOfDrink(drinkName: String){
+  async function chooseCupOfDrink(drinkName: string){
     const drinkLocator: Locator = page.locator(`[data-test="${drinkName}"]`)
     await drinkLocator.click();
   
@@ -17,8 +17,8 @@ test('OLSY-001 - promotional message', async ({ page }) => {
     await expect(promoForm).toBeVisible();
   }
 
-  async function buttonsVerification(buttonName: Locator, expectedText: String){
-    await expect(buttonName).toContainText(expectedText);
+  async function buttonsVerification(buttonName: Locator, someText: string){
+    await expect(buttonName).toContainText(someText);
 
   }
   // const espressoCup: Locator = page.locator('[data-test="Espresso"]');
