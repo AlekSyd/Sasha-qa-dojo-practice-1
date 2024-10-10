@@ -1,6 +1,5 @@
-import{expect, test} from '@playwright/test';
-import{Page} from '@playwright/test';
-
+import{test} from '@playwright/test';
+import { HomePage } from './HomePage';
 import { SignUpPage } from './SignUp';
 
 

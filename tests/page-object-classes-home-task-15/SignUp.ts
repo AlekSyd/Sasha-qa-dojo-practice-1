@@ -13,7 +13,7 @@
       this.userNameField = this.page.locator(`//input[@placeholder="Username"]`);
       this.emailField = this.page.locator(`//input[@placeholder="Email"]`);
       this.passwordField = this.page.locator(`//input[@placeholder="Password"]`);
-      this.signUpButton = this.page.locator(`//button[@class="btn btn-lg btn-primary pull-xs-right"]`)
+      this.signUpButton = this.page.locator(`//button[@class="btn btn-lg btn-primary pull-xs-right"]`);
 
     }
   
@@ -30,6 +30,5 @@
       expect(this.page.locator("a[contains(@href)")).toBe(
         `https://demo.learnwebdriverio.com/@${user}/`
       );
-  
-
-  }}
+  }
+}
